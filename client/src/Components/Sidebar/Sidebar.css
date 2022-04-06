@@ -1,0 +1,10 @@
+.sideBar{
+  max-height: 100vh;
+  padding: 5px;
+  grid-area: side;
+  overflow: scroll;
+  border-right: #b9b9b9 2px solid;
+}
+.sideBar::-webkit-scrollbar{
+  width: 0;
+}

@@ -1,0 +1,56 @@
+.noteItem_hashtags {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+
+
+}
+
+.noteItem_hashtags::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hashtags .hashTag {
+  height: 30px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #ff642a;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.hashtags .hashTag button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  margin-left: 3px;
+  border-radius: 3px;
+}
+
+.hashtags_immutable {
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hashtags_btn {
+  position: absolute;
+  right: 15px;
+}
+
+.hashtags_mutable {
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hashtags_mutable .hashTag {
+  color: white;
+  background-color: blue;
+}
+

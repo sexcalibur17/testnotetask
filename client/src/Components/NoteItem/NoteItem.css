@@ -1,0 +1,58 @@
+.noteItem{
+  grid-area: item;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.noteItem_highlights, .noteItem_textArea {
+  padding: 10px;
+  font-size: 28px;
+  font-family: inherit;
+  letter-spacing: 1px;
+}
+.noteItem_textArea {
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  border-radius: 0;
+  color: #444;
+  background-color: transparent;
+  resize: none;
+}
+.noteItem_textArea:focus{
+  outline: none;
+}
+.noteItem mark {
+  border-radius: 3px;
+  color: transparent;
+  background-color: #ff642a;
+}
+.noteItem_highlights {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+.noteItem_backdrop {
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  overflow: auto;
+}
+.noteItem_hashtags{
+  height: 10vh;
+  border-top: #b9b9b9 2px solid;
+}
+.noteItem_container, .noteItem_backdrop, .noteItem_textArea {
+  width: 75%;
+  height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+
