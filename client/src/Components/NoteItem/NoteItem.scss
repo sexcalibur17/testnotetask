@@ -1,0 +1,64 @@
+.noteItem{
+  grid-area: item;
+  display: grid;
+  grid-template-columns: 100%;
+
+  &_container, &_backdrop, &_textArea {
+    width: 75%;
+    height: 90vh;
+  }
+
+  &_hashtags{
+    height: 10vh;
+    border-top: var(--lightGray) 2px solid;
+  }
+
+  &_backdrop {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+  }
+
+  &_highlights {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: transparent;
+  }
+
+  &_textArea {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    border-radius: 0;
+    color: #444;
+    background-color: transparent;
+    resize: none;
+    &:focus{
+          outline: none;
+        }
+  }
+
+  mark {
+    border-radius: 3px;
+    color: transparent;
+    background-color: #ff642a;
+  }
+
+  &_highlights, &_textArea {
+    padding: 10px;
+    font-size: 28px;
+    font-family: inherit;
+    letter-spacing: 1px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
