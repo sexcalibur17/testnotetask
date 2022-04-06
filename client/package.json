@@ -8,17 +8,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "dependencies": {
-    "node-sass": "^6.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.8",
-    "react-router-dom": "^6.0.0",
-    "react-scripts": "^3.4.1",
-    "redux": "^4.1.2",
-    "redux-thunk": "^2.4.1",
-    "redux-devtools-extension": "^2.13.9"
-  },
+
   "eslintConfig": {
     "extends": "react-app"
   },
