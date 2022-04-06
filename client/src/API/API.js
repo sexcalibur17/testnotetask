@@ -5,7 +5,6 @@ const API = {
 	},
 	setNotes: function (notes) {
 		let newBody = JSON.stringify(notes)
-		console.log(newBody)
 		return fetch('/.netlify/functions/server/api/notes', {
 			method: 'POST',
 			body: newBody,
