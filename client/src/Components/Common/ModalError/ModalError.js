@@ -1,5 +1,5 @@
 import React from 'react';
-import './ModalError.css'
+import './ModalError.scss'
 import sorry from '../../../assets/img/sorry.gif'
 
 const ModalError = (props) => {

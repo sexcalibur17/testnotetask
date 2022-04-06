@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './Nav.css'
+import './Nav.scss'
 import {useSelector} from 'react-redux';
 import Sidebar from '../Sidebar/Sidebar';
 import {useDebouncedCallback} from '../../Hooks/useDebouncedCallback';

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import './Sidebar.css'
+import './Sidebar.scss'
 import SideBarItem from './SideBarItem/SideBarItem';
 import {sendNotes} from '../../Store/MainReducer';
 import {useSelector} from 'react-redux';

@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import './NoteItem.css'
+import './NoteItem.scss'
 import {useParams} from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
 import {editNote} from '../../Store/MainReducer';

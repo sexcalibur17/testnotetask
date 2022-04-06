@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideBarItem.css'
+import './SideBarItem.scss'
 import {useDispatch} from 'react-redux';
 import {deleteNote} from '../../../Store/MainReducer';
 import {NavLink, useNavigate} from 'react-router-dom';

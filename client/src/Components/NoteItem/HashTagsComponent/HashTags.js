@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './HashTags.css'
+import './HashTags.scss'
 import HashTag from './HashTag/HashTag';
 import Modal from './Modal/Modal';
 

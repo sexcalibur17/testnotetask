@@ -1,0 +1,36 @@
+.SideBarItem {
+  height: 50px;
+  padding: 7px 40px 7px 7px;
+  font-size: 24px;
+  display: block;
+  background-color: var(--whiteGray);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  line-height: 130%;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  //ellipsis
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &.active {
+    background-color: var(--deepGray);
+    color: white;
+  }
+  &_wrapper {
+    position: relative;
+    & button{
+      position: absolute;
+      height: 60%;
+      width: 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: normal;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+    }
+  }
+}

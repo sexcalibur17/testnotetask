@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Nav from '../Nav/Nav';
 import NoteItem from '../NoteItem/NoteItem';
-import './App.css'
+import './App.scss'
 import {Route, Routes} from 'react-router-dom';
 import {fetchNotes} from '../../Store/MainReducer';
 import {useDispatch, useSelector} from 'react-redux';

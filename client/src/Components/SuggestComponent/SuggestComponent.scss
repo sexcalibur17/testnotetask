@@ -1,0 +1,16 @@
+.suggest {
+	height: 94.5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	flex-direction: column;
+	&_button{
+		padding: 7px;
+		margin: 10px;
+		font-size: 40px;
+	}
+	& span{
+		text-align: center;
+	}
+}

@@ -1,0 +1,27 @@
+.navigation{
+  background-color: var(--deepGray);
+  max-width: 500px;
+  min-width: 250px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: nav;
+  & input{
+    flex: 1 0 80%;
+    width:100%;
+    line-height: 200%;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: var(--lightGray) 2px solid;
+    &:focus{
+      box-shadow: 0 0 5px 2px orangered;
+      outline: none;
+    }
+  }
+  &_button{
+    padding: 2px;
+    border-radius: 4px;
+    width: 30px;
+  }
+}

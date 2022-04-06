@@ -1,0 +1,35 @@
+@import "src/Components/Common/CreateButton/CreateButton";
+.error{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	font-size: 40px;
+	& .logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 150px;
+		height: 150px;
+		font-size: 50px;
+		border: var(--orange) 5px solid;
+		border-radius: 50%;
+		margin-bottom: 50px;
+	}
+	& h1{
+		font-weight: normal;
+	}
+	& span{
+		font-size: 18px;
+	}
+	& button{
+		color: #ff642a;
+		border: #ff642a 5px solid;
+		border-radius: 5px;
+		background-color:#fff;
+		margin-top: 50px;
+		padding: 7px;
+		font-size: 40px;
+	}
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SuggestComponent.css'
+import './SuggestComponent.scss'
 import CreateButton from '../Common/CreateButton/CreateButton';
 
 const SuggestComponent = () => {

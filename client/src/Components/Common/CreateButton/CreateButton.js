@@ -3,7 +3,7 @@ import {addNote} from '../../../Store/MainReducer';
 import {useDispatch} from 'react-redux';
 import {useNavigate} from 'react-router-dom';
 import createIcon from '../../../assets/img/iconmonstr-edit-6.svg'
-import './CreateButton.css'
+import './CreateButton.scss'
 
 
 const CreateButton = (props) =>{

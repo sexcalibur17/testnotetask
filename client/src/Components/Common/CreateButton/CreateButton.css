@@ -1,9 +1,0 @@
-.styledButton{
-  outline: 0;
-  border: 0;
-  transition: box-shadow ease 0.3s;
-}
-.styledButton:hover{
-  transition: box-shadow ease 0.3s;
-  box-shadow: 0 0 10px gray;
-}

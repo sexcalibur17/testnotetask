@@ -1,6 +1,15 @@
+//variables
+:root{
+  --orange: #ff642a;
+  --deepGray: #666666;
+  --lightGray: #b9b9b9;
+  --whiteGray: d2d2d2;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 
 body {
   height: 100%;
